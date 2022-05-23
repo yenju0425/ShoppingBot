@@ -45,7 +45,7 @@ WebDriverWait(driver, 10).until(
 driver.find_element_by_xpath("//div[@data-identifier='yenju0425@gmail.com']").click()
 print("選擇帳戶...Succeed")
 
-time.sleep(3) # 登入需要花時間，直接進入迴圈刷新會導致登入失敗，緩衝3秒 (視搶貨的激進程度調整)
+time.sleep(3) # 登入需要花時間，直接進入迴圈刷新會導致登入失敗，緩衝3秒
 
 counter = 0
 while True:
